@@ -16,13 +16,13 @@ This repo contains solutions, notes, and implementations of important DSA concep
 
 ## 🎯 Current Status & Next Steps
 
-I've successfully completed the foundational modules and am now moving into core data structures.
+These will be updating stay tuned....
 
 | Topic | Status | Problems Solved |
 | :--- | :--- | :--- |
 | **Math Basics** | ✅ Completed | 7 Problems |
 | **Recursion Basics** | ✅ Completed | 6 Problems |
-| **Arrays (The Next Module)** | ⏳ In Progress | 0/30+ |
+| **Sorting Algorithms** | ✅ Completed | 5 Techniques |
 
 ---
 
@@ -51,6 +51,18 @@ I've successfully completed the foundational modules and am now moving into core
 | 3 | Reverse an Array | Two-Pointer Swap (In-place) |
 | 4 | Check Palindrome | Start/End Pointers |
 | 5 | Fibonacci Series | Tree Recursion |
+
+---
+
+### 3.  Sorting Algorithms
+
+| S.No. | Algo Name |
+| :--- | :--- | 
+| 1 | Selection | 
+| 2 | Bubble |
+| 3 | Insertion |
+| 4 | Merge |
+| 5 | Quick |
 
 ---
 
