@@ -23,6 +23,9 @@ These will be updating stay tuned....
 | **Math Basics** | ✅ Completed | 7 Problems |
 | **Recursion Basics** | ✅ Completed | 6 Problems |
 | **Sorting Algorithms** | ✅ Completed | 5 Techniques |
+| **Arrays (Easy/Medium)** | ✅ Completed | **10+ Problems** |
+| **Arrays (Hard)** | ⏳ In Progress | 0 Problems |
+| **Hashing** | ➡️ Pending | - |
 
 ---
 
@@ -63,6 +66,23 @@ These will be updating stay tuned....
 | 3 | Insertion |
 | 4 | Merge |
 | 5 | Quick |
+
+---
+
+### 4. 📚 Arrays (Easy & Medium)
+
+| S.No. | Problem Name | Key Technique |
+| :--- | :--- | :--- |
+| 1 | Largest Element in Array | Linear Scan |
+| 2 | Remove Duplicates from Sorted Array | Two-Pointer (In-place) |
+| 3 | Left Rotate Array by One/K Places | Reversal Algorithm |
+| 4 | Union of Two Sorted Arrays | Two-Pointer / Hash Set |
+| 5 | Two Sum Problem | **Hashing / Two Pointers** |
+| 6 | Sort 0s, 1s, and 2s (Dutch National Flag) | **3-Pointer (Dijkstra's Algo)** |
+| 7 | Kadane's Algorithm (Max Subarray Sum) | Dynamic Programming (Greedy) |
+| 8 | Leaders in an Array | Reverse Iteration |
+| 9 | Majority Element $(> N/2)$ | **Boyer-Moore Voting Algorithm** |
+| 10 | Next Permutation | Two Scans (Break & Reverse) |
 
 ---
 
