@@ -4,10 +4,12 @@ import java.util.Arrays;
 
 public class FirstAndLastOccurence {
     public static void main(String[] args) {
-        int[] arr = {5,7,7,8,8,10};
+        int[] arr = {5,7,7,8,8,8,10};
         int target = 8;
         int[] res = searchRange(arr,target);
         System.out.println(Arrays.toString(res));
+        int totalOccurences = res[1]-res[0]+1;
+        System.out.println("Total occurences of target: "+totalOccurences);
     }
     public static int[] searchRange(int[] nums, int target) {
         int first = -1, last = -1;
