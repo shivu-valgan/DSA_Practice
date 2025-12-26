@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class SearchInsertPos {
     public static void main(String[] args) {

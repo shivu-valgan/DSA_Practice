@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class LowerBound {
     public static int lowerBound(int[] nums, int target) {

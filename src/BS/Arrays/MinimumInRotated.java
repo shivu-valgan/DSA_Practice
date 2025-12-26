@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class MinimumInRotated {
     public static int findMin(int[] nums) {

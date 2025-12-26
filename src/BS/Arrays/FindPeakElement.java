@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class FindPeakElement {
     public static int peakElement(int[] nums) {

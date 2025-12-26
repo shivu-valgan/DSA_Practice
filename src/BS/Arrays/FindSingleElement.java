@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class FindSingleElement {
     public static int singleNonDuplicate(int[] nums) {

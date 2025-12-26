@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class HowManyTimesArrayIsRotated {
     public static int findRotations(int[] nums) {

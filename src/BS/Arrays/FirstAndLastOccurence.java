@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 import java.util.Arrays;
 

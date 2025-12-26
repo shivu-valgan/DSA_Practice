@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class UpperBound {
     public static int upperBound(int[] nums, int target) {

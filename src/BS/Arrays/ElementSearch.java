@@ -1,4 +1,4 @@
-package BS;
+package BS.Arrays;
 
 public class ElementSearch {
     public static int search(int[] nums, int target) {
