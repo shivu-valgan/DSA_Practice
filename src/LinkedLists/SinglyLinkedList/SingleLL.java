@@ -4,16 +4,13 @@ package LinkedLists.SinglyLinkedList;
 public class SingleLL {
     Node head = null;
 
-    class Node{
+    public class Node{
         int data;
         Node next;
         Node(int data){
             this.data = data;
         }
-        Node(int data, Node next){
-            this.data = data;
-            this.next = next;
-        }
+
     }
 
     public void insertAtPos(int data, int pos) {
@@ -121,6 +118,19 @@ public class SingleLL {
         }
         return false;
     }
+
+    void reverse(){
+        if(head==null || head.next==null) return;
+        Node cur = head;
+        Node prev = null;
+        while(cur!=null){
+            Node next = cur.next;
+            cur.next=prev;
+            prev = cur;
+            cur = next;
+        }
+        head = prev;
+    }
 }
 class MainClass{
     public static void main(String[] args) {
@@ -138,6 +148,9 @@ class MainClass{
         l1.insertAtPos(34,2);
         l1.traverse();
         System.out.println("__________________________________________________________");
+
+        l1.reverse();
+        l1.traverse();
 
 
     }
