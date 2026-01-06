@@ -8,7 +8,7 @@ public class ReverseALinkedList {
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(5);
-        Node rev = reverseLL(head);
+        Node rev = reverserecursively(head);
         printList(rev);
     }
 
@@ -36,4 +36,14 @@ public class ReverseALinkedList {
         }
         return prev;
     }
+
+    private static Node reverserecursively(Node head) {
+        if(head==null || head.next==null) return head;
+        Node newHead = reverserecursively(head.next);
+        Node front = head.next;
+        front.next = head;
+        head.next = null;
+        return newHead;
+    }
+
 }
